@@ -3,9 +3,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     // Variable publique pour régler la vitesse dans l'inspecteur
-    public float speed = 10f;
-    public float turnSpeed = 50f; // Vitesse de rotation de la voiture
-    public float returnSpeed = 5f; // Vitesse à laquelle la voiture revient à sa position initiale
+    public float speed;
+    public float turnSpeed; // Vitesse de rotation de la voiture
+    public float returnSpeed; // Vitesse à laquelle la voiture revient à sa position initiale
 
     private float horizontalInput;
     private Quaternion initialRotation;
